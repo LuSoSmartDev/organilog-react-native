@@ -1,0 +1,6 @@
+git_url "git@gitlab.com:hunghk/very-secret.git"
+
+type "development" # The default type, can be: appstore, adhoc, enterprise or development
+shallow_clone "false"
+app_identifier "com.organilog"
+username "hungkh.it@gmail.com"

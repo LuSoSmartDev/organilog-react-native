@@ -1,0 +1,273 @@
+export const properties = {
+  id: 'string',
+  serverId: {
+    type: 'int',
+    default: 0,
+  },
+  accountId: 'int',
+  code: {
+    type: 'int',
+    optional: true,
+  },
+  fkClientAppliId: {
+    type: 'string',
+    optional: true, // FIXLATER
+  },
+  fkClientServerId: {
+    type: 'int',
+    optional: true,
+  },
+  fkCheminAppliId: {
+    type: 'string',
+    optional: true,
+  },
+  fkCheminServerId: {
+    type: 'int',
+    optional: true,
+  },
+  pays: {
+    type: 'string',
+    default: '',
+  },
+  prenom: {
+    type: 'string',
+    default: '',
+  },
+  nom: {
+    type: 'string',
+    default: '',
+  },
+  societe: {
+    type: 'string',
+    default: '',
+  },
+  adresse: {
+    type: 'string',
+    default: '',
+  },
+  codePostal: {
+    type: 'string',
+    default: '',
+  },
+  ville: {
+    type: 'string',
+    default: '',
+  },
+  departmentFr: {
+    type: 'string',
+    default: '',
+  },
+  region: {
+    type: 'string',
+    default: '',
+  },
+  longitude: {
+    type: 'string',
+    default: '',
+  },
+  latitude: {
+    type: 'string',
+    default: '',
+  },
+  altitude: {
+    type: 'string',
+    default: '',
+  },
+  localisationMethod: {
+    type: 'string',
+    default: '',
+  },
+  heureLundi: {
+    type: 'string',
+    default: '',
+  },
+  heureMardi: {
+    type: 'string',
+    default: '',
+  },
+  heureMercredi: {
+    type: 'string',
+    default: '',
+  },
+  heureJeudi: {
+    type: 'string',
+    default: '',
+  },
+  heureVendredi: {
+    type: 'string',
+    default: '',
+  },
+  heureSamedi: {
+    type: 'string',
+    default: '',
+  },
+  heureDimanche: {
+    type: 'string',
+    default: '',
+  },
+  isCle: {
+    type: 'int',
+    default: 0,
+  },
+  isBonPassage: {
+    type: 'int',
+    default: 0,
+  },
+  comment: {
+    type: 'string',
+    default: '',
+  },
+  isActif: {
+    type: 'int',
+    default: 1,
+  },
+  synchronizationDate: {
+    type: 'date',
+    optional: true,
+  },
+  addDate: {
+    type: 'date',
+    default: new Date(),
+  },
+  editDate: {
+    type: 'date',
+    default: new Date(),
+  },
+  lastViewDate: {
+    type: 'date',
+    default: new Date(),
+  },
+  isToSync: {
+    type: 'int',
+    default: 0,
+  },
+}
+
+export const mapField = [
+  'addDate',
+  'serverId',
+  'code',
+  'fkClientServerId',
+  'fkCheminServerId',
+  '',
+  'prenom',
+  'nom',
+  'societe',
+  'adresse',
+  'codePostal',
+  'ville',
+  'departermentFr',
+  'region',
+  'longitude',
+  'latitude',
+  '',
+  'heureLundi',
+  'heureMardi',
+  'heureMercredi',
+  'heureJeudi',
+  'heureVendredi',
+  'heureSamedi',
+  'heureDimanche',
+  'isBonPassage',
+  'isCle',
+  'comment',
+  'isActif',
+  'synchronizationDate',
+]
+
+export const mapFieldDetail = {
+  prenom: 'PRENOM',
+  nom: 'NOM',
+  societe: 'SOCIETE',
+  adresse: 'ADRESSE',
+  codePostal: 'CODEPOSTAL',
+  ville: 'VILLE',
+  Region: 'REGION',
+  longitude: 'LONGITUDE',
+  latitude: 'LATITUDE',
+  altitude: 'ALTITUDE',
+  comment: 'COMMENT',
+  heureLundi: 'HEURELUNDI',
+  heureMardi: 'HEUREMARDI',
+  heureMercredi: 'HEUREMERCREDI',
+  heureJeudi: 'HEUREJEUDI',
+  heureVendredi: 'HEUREVENDREDI',
+  heureSamedi: 'HEURESAMEDI',
+  heureDimanche: 'HEUREDIMANCHE',
+  fkCheminAppliId: 'CHEMIN',
+  fullname: 'FULLNAME',
+}
+
+// export const mapServerField = {
+//   id: 'aId',
+//   serverId: 'aIdServer',
+//   code: 'aCode',
+//   fkClientServerId: 'aFkClientId',
+//   fkClientAppliId: 'aFkClientAppliId',
+//   fkCheminServerId: 'aFkCheminId',
+//   fkCheminAppliId: 'aFkCheminAppliId',
+//   pays: 'aPays',
+//   prenom: 'aPrenom',
+//   nom: 'aNom',
+//   societe: 'aSociete',
+//   adresse: 'aAdresse',
+//   codePostal: 'aCodePostal',
+//   ville: 'aVille',
+//   departmentFr: 'aFrDept',
+//   region: 'aRegion',
+//   longitude: 'aLong',
+//   latitude: 'aLat',
+//   localisationMethod: 'aLocM',
+//   heureLundi: 'aHeure1',
+//   heureMardi: 'aHeure2',
+//   heureMercredi: 'aHeure3',
+//   heureJeudi: 'aHeure4',
+//   heureVendredi: 'aHeure5',
+//   heureSamedi: 'aHeure6',
+//   isCle: 'aIsCle',
+//   isBonPassage: 'aIsBonPassage',
+//   comment: 'aComment',
+//   editDate: 'cModifOn',
+//   addDate: 'cOn',
+// };
+
+export const mapServerField = {
+  id: 'aId',
+  serverId: 'aIdServer',
+  code: 'aCode',
+  fkClientServerId: 'aFkClientId',
+  fkClientAppliId: 'aFkClientAppliId',
+  fkCheminServerId: 'aFkCheminId',
+  fkCheminAppliId: 'aFkCheminAppliId',
+  pays: 'aPays',
+  prenom: 'aPrenom',
+  nom: 'aNom',
+  societe: 'aSociete',
+  adresse: 'aAdresse',
+  codePostal: 'aCodePostal',
+  ville: 'aVille',
+  departmentFr: 'aFrDept',
+  region: 'aRegion',
+  longitude: 'aLong',
+  latitude: 'aLat',
+  localisationMethod: 'aLocM',
+  heureLundi: 'aHeure1',
+  heureMardi: 'aHeure2',
+  heureMercredi: 'aHeure3',
+  heureJeudi: 'aHeure4',
+  heureVendredi: 'aHeure5',
+  heureSamedi: 'aHeure6',
+  heureDimanche: 'aHeure7',
+  isCle: 'aIsCle',
+  isBonPassage: 'aIsBonPassage',
+  comment: 'aComment',
+  editDate: 'aModifOn',
+  isActif: 'aOn',
+}
+
+export default {
+  mapField,
+  properties,
+  mapFieldDetail,
+  mapServerField,
+}

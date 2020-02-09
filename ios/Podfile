@@ -1,0 +1,9 @@
+target 'Organilog' do
+
+  react_native_path = "../node_modules/react-native"
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod "Yoga", :path => "#{react_native_path}/ReactCommon/yoga"
+  pod "React", :path => react_native_path, :subspecs => [
+    'BatchedBridge'
+  ]
+end

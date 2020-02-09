@@ -1,0 +1,211 @@
+[
+  {
+    "name": "VISUAL",
+    "items": {
+      "PREF_FONT_SIZE": {
+        "category": "Visuel",
+        "name": "PREF_FONT_SIZE",
+        "defaultValue": "12",
+        "type": "List",
+        "arrange": ["10", "12", "14", "16", "18", "20", "22"],
+      }
+    },
+  },
+  {
+    "name": "SYNCHRONIZATION",
+    "items": {
+      "PREF_INIT_LAST_SYNCHRO": {
+        "category": "Synchronisation",
+        "name": "PREF_INIT_LAST_SYNCHRO",
+        "defaultValue": "Vide",
+        "type": "Text",
+        "description": "Remise A Zéro de la date de dernière synchronisation",
+      },
+      "PREF_MEDIA_SIZE_MAX": {
+        "category": "Synchronisation",
+        "name": "PREF_MEDIA_SIZE_MAX",
+        "defaultValue": "Taille originale",
+        "type": "List",
+        "arrange": ["100px", "400px", "800px", "1000px", "1400px", "1800px", "2000px", "2400px", "Taille originale"],
+      },
+      "PREF_PURGE_DATA": {
+        "category": "Synchronisation",
+        "name": "PREF_PURGE_DATA",
+        "defaultValue": "+ de 3 mois",
+        "type": "List",
+        "arrange": ["Aucune", "+ de 7 jours", "+ de 1 mois", "+ de 3 mois", "+ de 6 mois", "+ de 1 an"],
+      }
+    }
+  },
+  {
+    "name": "LIST_OF_INTERVENTIONS",
+    "items": {
+      "PREF_REPORTER_INTERVENTIONS": {
+        "category": "Interventions",
+        "name": "PREF_REPORTER_INTERVENTIONS",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Ré-affiche à la date du jour toutes les interventions non-effectuées",
+      },
+      "PREF_DISPLAY_HOME_INTERVENTION_TITLE": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_HOME_INTERVENTION_TITLE",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher le titre de l'interventions sur la liste journalière",
+      },
+      "PREF_DISPLAY_HOME_INTERVENTION_PRIORITY": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_HOME_INTERVENTION_PRIORITY",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Afficher le priorité de l'interventions sur la liste journalière",
+      },
+      "PREF_DISPLAY_HOME_INTERVENTION_CLIENT": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_HOME_INTERVENTION_CLIENT",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher le client de l'interventions sur la liste journalière",
+      },
+      "PREF_DISPLAY_HOME_INTERVENTION_ADRESSE": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_HOME_INTERVENTION_ADRESSE",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher le adresse de l'interventions sur la liste journalière",
+      },
+      "PREF_DISPLAY_HOME_INTERVENTION_TOGGLE_PROGRESS": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_HOME_INTERVENTION_TOGGLE_PROGRESS",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Ajouter le statut «en cours» pour les interventions",
+      }
+    }
+  },
+  {
+    "name": "VIEW_INTERVENTIONS",
+    "items": {
+      "PREF_DISPLAY_CHRONO": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_CHRONO",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Afficher/masquer le chronomètre",
+      },
+      "PREF_DISPLAY_BTN_TAKE_PHOTO": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_BTN_TAKE_PHOTO",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher le bouton pour prendre une photo",
+      },
+      "PREF_DISPLAY_BTN_SEARCH_PHOTO": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_BTN_SEARCH_PHOTO",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher le bouton pour chercher dans la librairie du support mobile",
+      },
+      "PREF_DISPLAY_BTN_TAKE_SIGNATURE": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_BTN_TAKE_SIGNATURE",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher l’onglet pour prendre une signature",
+      },
+      "PREF_DISPLAY_MAP": {
+        "category": "Interventions",
+        "name": "PREF_DISPLAY_MAP",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher le bouton pour accéder à la géolocalisation des adresses",
+      },
+      "PREF_SEND_MAIL": {
+        "category": "Interventions",
+        "name": "PREF_SEND_MAIL",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher un bouton pour envoyer le rapport de l'intervention par email au client",
+      }
+    }
+  },
+  {
+    "name": "MODIFY_AN_INTERVENTION",
+    "items": {
+      "PREF_CAN_EDIT_CLIENT_ADRESSE": {
+        "category": "Modifier une intervention",
+        "name": "PREF_CAN_EDIT_CLIENT_ADRESSE",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Lors de la modification d'une intervention, pouvoir modifier le client ou d'adresse",
+      },
+      "PREF_CAN_EDIT_USERS": {
+        "category": "Modifier une intervention",
+        "name": "PREF_CAN_EDIT_USERS",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Lors de la modification d'une intervention, pouvoir modifier les intervenants",
+      },
+      "PREF_DISPLAY_FIELD_TITLE": {
+        "category": "Modifier une intervention",
+        "name": "PREF_DISPLAY_FIELD_TITLE",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Afficher ou cacher le champ « titre » lors de l'ajout ou d'une modification d'une intervention",
+      },
+      "PREF_CAN_EDIT_DATES": {
+        "category": "Modifier une intervention",
+        "name": "PREF_CAN_EDIT_DATES",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Perdet de modifier manuellement la date début et la date de fin",
+      },
+      "PREF_CAN_EDIT_HOURS": {
+        "category": "Modifier une intervention",
+        "name": "PREF_CAN_EDIT_HOURS",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Permet de modifier manuellement l'heure de début, l'heure de fin et le temps de travail",
+      }
+    }
+  },
+  {
+    "name": "HOURS_WORKED",
+    "items": {
+      "PREF_HOUR_START_ENABLE": {
+        "category": "Heures travaillées",
+        "name": "PREF_HOUR_START_ENABLE",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Forcer une heure minimum pour le début de journée",
+      },
+      "PREF_HOUR_START": {
+        "category": "Heures travaillées",
+        "name": "PREF_HOUR_START",
+        "defaultValue": "09:00",
+        "type": "Time",
+      }
+    }
+  },
+  {
+    "name": "NOTIFICATIONS",
+    "items": {
+      "PREF_NOTIF_MESSAGE": {
+        "category": "Heures travaillées",
+        "name": "PREF_NOTIF_MESSAGE",
+        "defaultValue": "1",
+        "type": "Checkbox",
+        "description": "Être avertis de chaque nouveau message",
+      },
+      "PREF_NOTIF_INTERVENTION": {
+        "category": "Heures travaillées",
+        "name": "PREF_NOTIF_INTERVENTION",
+        "defaultValue": "0",
+        "type": "Checkbox",
+        "description": "Être avertis de chaque nouvelle intervention"
+      }
+    }
+  }
+]
